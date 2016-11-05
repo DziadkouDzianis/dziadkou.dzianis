@@ -8,7 +8,7 @@ alter table account
 add constraint pk_Account_ID  primary key (Account_ID);
 
 
----
+---new table
 create table  Credit_Card
 (Credit_Card_ID number (16),
 Account_ID number (2),
